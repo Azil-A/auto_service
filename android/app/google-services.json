@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857836391410",
+    "project_id": "autoservice-48c34",
+    "storage_bucket": "autoservice-48c34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857836391410:android:5ec9c61127f97e49ccf96b",
+        "android_client_info": {
+          "package_name": "com.example.auto_services"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-uc4TsbumUPP8Z6jAgZwn1-ddBSGc3Qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
