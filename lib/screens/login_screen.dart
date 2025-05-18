@@ -40,6 +40,7 @@ class _LoginScreenState extends State<LoginScreen> {
         _passwordController.text,
       );
 
+      
       await authService.saveCustomer(customer);
 
       if (!mounted) return;

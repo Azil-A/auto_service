@@ -60,12 +60,10 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
       if (!mounted) return;
 
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => AppointmentScreen(customer: customer),
-        ),
-      );
+      Navigator.of(context).pushAndRemoveUntil(
+                MaterialPageRoute(builder: (context) => AppointmentScreen(customer: customer,)),
+                (Route<dynamic> route) => false,
+              );
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
